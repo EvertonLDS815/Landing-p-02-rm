@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body {
-    min-height: 100vh;
-}
 header {
     height: 80px;
     display: flex;
@@ -26,9 +23,13 @@ header {
     background: #6FBF44;
     border: 1px solid #4CB538;
     border-radius: 6px;
+    font-weight: 500;
     padding: 12px 15px;
     color: #FFF;
     cursor: pointer;
+}
+.btn-he:active {
+    background: #888;
 }
 main {
     width: 100vw;
